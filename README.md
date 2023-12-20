@@ -50,6 +50,7 @@ Accurate predictions empower policymakers, utility companies, and grid operators
 - Contribution to reducing greenhouse gas emissions and promoting sustainable energy practices.
 
 ### Future Prospects
-- Our model already outperforms competitors and can be further enhanced with continuous refinement. Our team's passion and dedication make collaboration both pleasant and profitable. - - - Choosing to work with our company enables Spain to make informed decisions, optimize resource allocation, and address challenges posed by electricity shortfalls and the climate crisis.
+- Our model already outperforms competitors and can be further enhanced with continuous refinement. Our team's passion and dedication make collaboration both pleasant and profitable.
+- Spain can make informed decisions, optimize resource allocation, and address challenges posed by electricity shortfalls and the climate crisis.
 
 Thank you.
