@@ -13,37 +13,43 @@ Renewable energy's variability and slow deployment necessitate accurate predicti
 
 ### EDA and Feature Engineering
 #### Data Exploration
-Load shortfall, defined as fossil fuel-generated power minus renewable production, serves as our key metric. Various factors impacting electricity demand and supply were considered, including time, weather conditions, and city-specific variables.![load shortfall](https://github.com/AndisiweJ/Spain-s-energy-shortfall-crisis/assets/107894108/04171771-063d-481c-b731-948bd66a5646)
+Load shortfall, defined as fossil fuel-generated power minus renewable production, serves as our key metric. Various factors impacting electricity demand and supply were considered, including time, weather conditions, and city-specific variables.
+#### Insights from EDA
 
-Insights from EDA
+![load shortfall](https://github.com/AndisiweJ/Spain-s-energy-shortfall-crisis/assets/107894108/04171771-063d-481c-b731-948bd66a5646)
+
 No single variable closely linked to load shortfall.
+
 ![correlation matrix](https://github.com/AndisiweJ/Spain-s-energy-shortfall-crisis/assets/107894108/c9e38957-d195-46b7-ae6c-ac9f111094fa)
 Low correlation of individual variables with the response variable.
+
 ![Correlation Matrix](https://github.com/AndisiweJ/Spain-s-energy-shortfall-crisis/assets/107894108/48f26992-e96e-4ae4-9c53-51fb294fdaa6)
 High correlation between several variables, posing multicollinearity concerns.
+
 ![outliers](https://github.com/AndisiweJ/Spain-s-energy-shortfall-crisis/assets/107894108/780a415d-ed51-4581-8c97-59d2603f8a47)
 Presence of outliers and notable patterns, such as lower power consumption on weekends and higher load shortfalls in summer.
-Data Cleaning and Feature Engineering
-Removed unnecessary columns and redundant features.
-Created new features by splitting the "time" feature into month, day of the week, year, and hour components.
-Performed standard scaling for consistent machine learning interpretation.
-Model Evaluation
+
+#### Data Cleaning and Feature Engineering
+- Removed unnecessary columns and redundant features.
+- Created new features by splitting the "time" feature into month, day of the week, year, and hour components.
+- Performed standard scaling for consistent machine learning interpretation.
+
+### Model Evaluation
 We built and evaluated 12 regression models, including linear regression, random forest, decision tree, gradient boosting, and neural networks. Thorough assessments using metrics such as mean squared error, mean absolute error, and R-squared guided the selection of the best-performing models.
 
-Ensemble Creation
+#### Ensemble Creation
 Four ensembles were formed, three averaging model predictions and one weighting models based on performance. The ensemble of kernel ridge and random forest models emerged as the top performer.
 
-Business Value/Conclusion
+### Business Value/Conclusion
 Accurate predictions empower policymakers, utility companies, and grid operators to make informed decisions. Our model facilitates policy formulation, efficient resource planning, demand response initiatives, and real-time energy balancing.
 
-Key Business Values
-Improved electricity demand and supply forecasting.
-Optimal resource allocation and enhanced grid stability.
-Proactive decision-making and significant cost savings.
-Contribution to reducing greenhouse gas emissions and promoting sustainable energy practices.
-Future Prospects
-Our model already outperforms competitors and can be further enhanced with continuous refinement. Our team's passion and dedication make collaboration both pleasant and profitable. Choosing to work with our company enables Spain to make informed decisions, optimize resource allocation, and address challenges posed by electricity shortfalls and the climate crisis.
+### Key Business Values
+- Improved electricity demand and supply forecasting.
+- Optimal resource allocation and enhanced grid stability.
+- Proactive decision-making and significant cost savings.
+- Contribution to reducing greenhouse gas emissions and promoting sustainable energy practices.
 
-We appreciate your attention and eagerly anticipate leveraging machine learning to address Spain's electricity shortfall with accuracy and efficiency.
+### Future Prospects
+- Our model already outperforms competitors and can be further enhanced with continuous refinement. Our team's passion and dedication make collaboration both pleasant and profitable. - - - Choosing to work with our company enables Spain to make informed decisions, optimize resource allocation, and address challenges posed by electricity shortfalls and the climate crisis.
 
 Thank you.
